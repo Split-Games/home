@@ -1,4 +1,4 @@
-var project1 = new Project("project-1", "Rise Of Anura", "../../img/Thumbnail.png", 
+var project1 = new Project("project-1", "Rise Of Anura", "./src/img/Thumbnail.png", 
 `
 <div class="paragraph">
    Currently in the works, <strong>Rise Of Anura</strong> is my first attempt at creating a full fledged game. 
@@ -19,13 +19,13 @@ var project1 = new Project("project-1", "Rise Of Anura", "../../img/Thumbnail.pn
     </ul>
 </div>
 <div class="paragraph center">
-    <img class="pc-screenshot" src="../../img/riseofanura_main_pond.png" alt="Rise Of Anura Main Pond" />
-    <img class="pc-screenshot" src="../../img/riseofanura_village.png" alt="Rise Of Anura Village" />
-    <img class="pc-screenshot" src="../../img/riseofanura_portal_world.png" alt="Rise Of Anura Portal World" />
+    <img class="pc-screenshot" src="./src/img/riseofanura_main_pond.png" alt="Rise Of Anura Main Pond" />
+    <img class="pc-screenshot" src="./src/img/riseofanura_village.png" alt="Rise Of Anura Village" />
+    <img class="pc-screenshot" src="./src/img/riseofanura_portal_world.png" alt="Rise Of Anura Portal World" />
 </div>
 `, "#23bd69", true, true);
 
-var project2 = new Project("project-2", "BlockyBounce", "../../img/blockybounce-icon.png", 
+var project2 = new Project("project-2", "BlockyBounce", "./src/img/blockybounce-icon.png", 
 `
 <div class="paragraph">
    Released in Summer of 2020 on Appstore and Playstore, <strong>BlockyBounce</strong> is my first widely launched video game. 
@@ -42,12 +42,12 @@ var project2 = new Project("project-2", "BlockyBounce", "../../img/blockybounce-
     </ul>
 </div>
 <div class="paragraph center">
-        <img class="phone-screenshot" src="../../img/blockybounce_home.jpg" alt="BlockyBounce Main Screen" />
-        <img class="phone-screenshot" src="../../img/blockybounce_ingame.jpg" alt="BlockyBounce In Game" />
+        <img class="phone-screenshot" src="./src/img/blockybounce_home.jpg" alt="BlockyBounce Main Screen" />
+        <img class="phone-screenshot" src="./src/img/blockybounce_ingame.jpg" alt="BlockyBounce In Game" />
     </div>
 `, "#5a78af", true);
 
-var project3 = new Project("project-3", "Turtle TD", "../../img/turtleTD_title_screen.png", 
+var project3 = new Project("project-3", "Turtle TD", "./src/img/turtleTD_title_screen.png", 
 `
 <div class="paragraph">
    One of my final projects for school, <strong>TurtleTD</strong> is a game based on the popular BloonsTD franchise. 
@@ -65,13 +65,13 @@ var project3 = new Project("project-3", "Turtle TD", "../../img/turtleTD_title_s
     </ul>
 </div>
 <div class="paragraph center">
-    <img class="pc-screenshot" src="../../img/turtleTD_mid_game.png" alt="TurtleTD Mid Game" />
-    <img class="pc-screenshot" src="../../img/turtleTD_end_game.png" alt="TurtleTD End Game" />
-    <img class="pc-screenshot" src="../../img/turtleTD_map2.png" alt="TurtleTD Map Wacky Waves" />
+    <img class="pc-screenshot" src="./src/img/turtleTD_mid_game.png" alt="TurtleTD Mid Game" />
+    <img class="pc-screenshot" src="./src/img/turtleTD_end_game.png" alt="TurtleTD End Game" />
+    <img class="pc-screenshot" src="./src/img/turtleTD_map2.png" alt="TurtleTD Map Wacky Waves" />
 </div>
 `, "#e48246");
 
-var project4 = new Project("project-4", "Mini Planet Tycoon", "../../img/miniplanets_splash.png", 
+var project4 = new Project("project-4", "Mini Planet Tycoon", "./src/img/miniplanets_splash.png", 
 `
 <div class="paragraph">
    My very first Unity project, <strong>Mini Planet Tycoon</strong> made for BlackThornProds GAME JAM #2.
@@ -86,9 +86,9 @@ var project4 = new Project("project-4", "Mini Planet Tycoon", "../../img/minipla
     </ul>
 </div>
 <div class="paragraph center">
-    <img class="pc-screenshot" src="../../img/miniplanets_ice.png" alt="Mini Planet Tycoon Start Game" />
-    <img class="pc-screenshot" src="../../img/miniplanets_mid.png" alt="Mini Planet Tycoon Second Unlock" />
-    <img class="pc-screenshot" src="../../img/miniplanets_end.png" alt="Mini Planet Tycoon End Game" />
+    <img class="pc-screenshot" src="./src/img/miniplanets_ice.png" alt="Mini Planet Tycoon Start Game" />
+    <img class="pc-screenshot" src="./src/img/miniplanets_mid.png" alt="Mini Planet Tycoon Second Unlock" />
+    <img class="pc-screenshot" src="./src/img/miniplanets_end.png" alt="Mini Planet Tycoon End Game" />
 </div>
 `, "#383838");
 
